@@ -3,6 +3,12 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+src/main/resources/application.properties
+src/test/java/com/mitch/java_web_final_project/JavaWebFinalProjectApplicationTests.java
+mysql/auto.cnf
+mysql/binlog.index
+mysql/ib_buffer_pool
+mysql/mysql.sock
 
 ### STS ###
 .apt_generated
@@ -31,3 +37,5 @@ build/
 
 ### VS Code ###
 .vscode/
+.hintrc
+

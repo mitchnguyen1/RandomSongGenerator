@@ -23,7 +23,7 @@ public class SongController {
         return songService.all();
     }
 
-    @PostMapping
+    @PostMapping("/add")
     public void addSong(@RequestBody Song song){
         songService.add(song);
     }

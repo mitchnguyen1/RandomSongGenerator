@@ -11,7 +11,7 @@ import java.util.Optional;
 public class SongService {
     private static SongRepository songRepository;
     public SongService (SongRepository songRepository){
-        this.songRepository = songRepository;
+        SongService.songRepository = songRepository;
     }
 
     public void delete(Integer id) {

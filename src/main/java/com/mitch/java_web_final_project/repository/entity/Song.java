@@ -1,11 +1,10 @@
 package com.mitch.java_web_final_project.repository.entity;
 
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
 @Entity
+@Table(name = "song", schema = "song")
 public class Song {
 
     @Id
